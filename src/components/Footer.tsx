@@ -156,7 +156,7 @@ const Footer = () => {
                 <span>+216 21 895 232</span>
               </li>
               <li className="flex items-start">
-                <span>drippipetunisia@gmail.com</span>
+                <span>contact@irrigationmoderne.com</span>
               </li>
             
             </ul>

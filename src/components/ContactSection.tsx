@@ -41,7 +41,7 @@ const ContactSection = () => {
                   <Mail className="h-6 w-6 text-accent mt-1 mr-4 flex-shrink-0" />
                   <div>
                     <h4 className="font-medium mb-1">Email</h4>
-                    <p className="text-gray-300">drippipetunisia@gmail.com</p>
+                    <p className="text-gray-300">contact@irrigationmoderne.com</p>
                   </div>
                 </div>
               </div>
@@ -141,22 +141,22 @@ const ContactSection = () => {
           <div>
 
           </div>
-          {/* <div>
+          <div>
             <div className="mt-8">
               <h4 className="font-medium mb-4">Suivez-nous</h4>
               <div className="flex space-x-4">
-                <a href="#" className="text-gray-300 hover:text-accent transition-colors">
+                <a href="https://www.facebook.com/profile.php?id=61577298662819" target="_blank" className="text-gray-300 hover:text-accent transition-colors">
                   <Facebook className="h-6 w-6" />
                 </a>
-                <a href="#" className="text-gray-300 hover:text-accent transition-colors">
+                {/* <a href="#" className="text-gray-300 hover:text-accent transition-colors">
                   <Instagram className="h-6 w-6" />
                 </a>
                 <a href="#" className="text-gray-300 hover:text-accent transition-colors">
                   <Linkedin className="h-6 w-6" />
-                </a>
+                </a> */}
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
 
 
