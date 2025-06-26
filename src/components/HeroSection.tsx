@@ -23,7 +23,7 @@ const HeroSection = () => {
             Optimisez votre irrigation, maximisez votre rendement agricole
           </h1>
           <p className="text-lg mb-8 opacity-90 max-w-2xl animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            MBH MODERN IRRIGATION TECHNIQUE vous accompagne avec des solutions modernes et efficaces pour une gestion intelligente de l'eau. Grâce à notre expertise, nous vous offrons des équipements et des services adaptés à vos besoins spécifiques.
+            MODERN IRRIGATION TECHNIQUES vous accompagne avec des solutions modernes et efficaces pour une gestion intelligente de l'eau. Grâce à notre expertise, nous vous offrons des équipements et des services adaptés à vos besoins spécifiques.
           </p>
           <div className="flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <a href="#contact" className="bg-[#F9DB55] hover:bg-yellow-400 text-primary font-semibold py-3 px-6 rounded-lg transition-colors">

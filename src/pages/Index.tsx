@@ -15,7 +15,7 @@ import WhatsAppButton from '../components/WhatsAppButton';
 
 const Index = () => {
   useEffect(() => {
-    document.title = 'MBH Modern Irrigation Technique';
+    document.title = 'Modern Irrigation Techniques';
   }, []);
 
   return (

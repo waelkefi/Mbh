@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { ArrowUp, Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
-
+import logoW from '../images/LogoDark.svg';
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -15,7 +15,8 @@ const Footer = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-12">
           <div>
-            <h3 className="text-xl font-semibold mb-5"><svg width="137" height="56" viewBox="0 0 137 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <h3 className="text-xl font-semibold mb-5">
+              {/* <svg width="137" height="56" viewBox="0 0 137 56" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clipPath="url(#clip0_27_278)">
                 <path d="M32.5334 21.5668C32.2663 21.804 32.0052 22.0492 31.7521 22.3023C31.5308 22.5236 31.3176 22.7488 31.1123 22.978C31.0006 23.1036 30.889 23.2292 30.7794 23.3588C30.309 23.9149 29.8745 24.4949 29.4818 25.0988C28.8858 26.0137 28.3815 26.9785 27.9749 27.9851C27.2693 29.7212 26.8527 31.5749 26.7471 33.4884C26.7292 33.8073 26.7212 34.1282 26.7212 34.4511V43.9329H29.1709V34.4511C29.1709 34.1282 29.1808 33.8073 29.2027 33.4884C29.3323 31.4991 29.8565 29.6175 30.6997 27.9213C31.0983 27.122 31.5667 26.3626 32.0969 25.653C32.1726 25.5513 32.2504 25.4497 32.3301 25.35C32.7945 24.76 33.3028 24.2079 33.8509 23.6956C36.484 21.234 40.02 19.7251 43.8988 19.7251V17.2754C39.6711 17.2754 35.6767 18.7922 32.5354 21.5708L32.5334 21.5668Z" fill="#F3CC2C" />
                 <path d="M35.6864 28.1863C34.7257 29.8506 34.1476 31.7661 34.0739 33.8052C34.0699 33.9507 34.0659 34.0982 34.0659 34.2457V52.8187C34.0659 52.8187 34.0739 52.8187 34.0799 52.8147C34.909 52.6114 35.7223 52.3682 36.5156 52.0852V34.2457C36.5156 34.1082 36.5176 33.9706 36.5236 33.8331C36.7408 28.6686 41.0103 24.5346 46.2266 24.5346V22.085C41.7239 22.085 37.7873 24.5426 35.6824 28.1883L35.6864 28.1863Z" fill="#EBF5EF" />
@@ -56,7 +57,14 @@ const Footer = () => {
                   <rect width="137" height="56" fill="white" />
                 </clipPath>
               </defs>
-            </svg>
+            </svg> */}
+              <img
+              src={
+                 logoW // logo blanc
+              }
+              alt="Moderne Irrigation Technique"
+              className="h-12 md:h-14 transition-all duration-300"
+            />
             </h3>
             {/* <ul className="space-y-3">
               <li className="flex items-center">
@@ -83,7 +91,7 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
             </div> */}
-            <p className='text-white' style={{lineHeight:'1.8rem'}}>Solutions d'irrigation innovantes et
+            <p className='text-white' style={{ lineHeight: '1.8rem' }}>Solutions d'irrigation innovantes et
               durables pour une gestion optimale de
               vos ressources en eau.</p>
           </div>
@@ -109,19 +117,17 @@ const Footer = () => {
 
             <ul className="space-y-3">
               <li className="flex items-center">
-                <span>Accueil</span>
+                <a href="#services"><span>Services</span></a>
               </li>
               <li className="flex items-center">
-                <span>Nos Services</span>
+                <a href="#why-us"><span>Pourquoi Nous</span></a>
+              </li>
+
+              <li className="flex items-start">
+                <a href="#projects"><span>Réalisations</span> </a>
               </li>
               <li className="flex items-start">
-                <span>Réalisations</span>
-              </li>
-              <li className="flex items-start">
-                <span>Témoignages</span>
-              </li>
-              <li className="flex items-start">
-                <span>Contact</span>
+                <a href="#contact"><span>Contact</span></a>
               </li>
             </ul>
           </div>
@@ -130,20 +136,20 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4">Services</h3>
             <ul className="space-y-3">
               <li className="flex items-center">
-                <span>Conception de systèmes</span>
+                <span>Études de projets agricoles</span>
               </li>
               <li className="flex items-center">
-                <span>Installation</span>
+                <span>Irrigation & Eau</span>
               </li>
               <li className="flex items-start">
-                <span>Maintenance</span>
+                <span>Aménagement Agricole</span>
               </li>
               <li className="flex items-start">
-                <span>Consultation</span>
+                <span>Sécurité et protection des exploitations agricoles</span>
               </li>
-              <li className="flex items-start">
+              {/* <li className="flex items-start">
                 <span>Financement</span>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div>
@@ -156,9 +162,9 @@ const Footer = () => {
                 <span>+216 21 895 232</span>
               </li>
               <li className="flex items-start">
-                <span>contact@irrigationmoderne.com</span>
+                <span>contact@modernirrigationtechniques.com</span>
               </li>
-            
+
             </ul>
           </div>
         </div>
@@ -169,7 +175,7 @@ const Footer = () => {
           <div className="flex items-center mb-4 md:mb-0">
 
             <p className="text-sm text-white/60">
-              © {new Date().getFullYear()} MBH Modern Irrigation Technique. Tous droits réservés.
+              © {new Date().getFullYear()} Modern Irrigation Techniques. Tous droits réservés.
             </p>
           </div>
 

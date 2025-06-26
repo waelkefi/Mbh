@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import logoW from '../images/logowhite.svg';
-import logo from '../images/logo.png';
+import logoW from '../images/LogoDark.svg';
+import logo from '../images/Logolight.svg';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
